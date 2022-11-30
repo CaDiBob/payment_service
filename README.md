@@ -38,11 +38,17 @@ pip install -r requirements.txt
 #### Переменные окружения
 
 Заполните переменные окружения в файле `.env`:
+
 `ALLOWED_HOSTS` - Разрешенные хосты. Указываются через запятую, например: `127.0.0.1,localhost`.
+
 `SECRET_KEY` - Секретный ключ.
+
 `DEBUG` - Если нужно включить режим отладки web-сервера, установите значение в `True`.
+
 `STRIPE_API_KEY` - Секретный ключ от [API Stripe](https://dashboard.stripe.com/apikeys/).
+
 `DATABASE_URL` - Django database url postgres://имя пользователя:пароль@хост:порт(5432)/имя базы данных
+
 
 #### Для локальной разработки
 
